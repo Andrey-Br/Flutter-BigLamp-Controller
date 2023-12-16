@@ -1,0 +1,28 @@
+name: big_lamp_web_controller
+description: BigLamp Controller
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.15.1
+  firebase_database: ^10.2.5
+  shared_preferences: ^2.2.1
+  http: ^1.1.0
+  flutter_bloc: ^8.1.3
+  provider: ^6.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
