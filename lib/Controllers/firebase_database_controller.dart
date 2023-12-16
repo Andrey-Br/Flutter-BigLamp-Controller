@@ -3,13 +3,10 @@ import 'dart:async';
 import 'package:big_lamp_web_controller/Data/lamp_state.dart';
 import 'package:big_lamp_web_controller/Data/user.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:flutter/material.dart';
 
 class FirebaseController {
   static final FirebaseController _instance = FirebaseController._();
   static FirebaseController get instance => _instance;
-
-  AnimationController? animationController;
 
   final _lampRef = FirebaseDatabase.instance.ref("biglamp");
   final _usersRef = FirebaseDatabase.instance.ref("users");
